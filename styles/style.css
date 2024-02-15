@@ -21,17 +21,17 @@ body {
   font-weight: 700;
   padding: 15px 30px;
 }
-.section-title{
+.section-title {
   color: #181818;
-text-align: center;
-font-size: 35px;
-font-weight: 700;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
 }
-.section-description{
-color: #757575;
-text-align: center;
-font-size: 18px;
-font-weight: 400;
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
 }
 /* nav related styles */
 nav {
@@ -73,52 +73,96 @@ nav a {
   /* max-width: 100%;
   margin: auto; */
 }
-.banner-greeting{
-    font-size: 45px;
-    font-weight: 600;
-    color: #474747;
-    margin-bottom: 0;
+.banner-greeting {
+  font-size: 45px;
+  font-weight: 600;
+  color: #474747;
+  margin-bottom: 0;
 }
-.banner-title{
-    font-size: 85px;
-    font-weight: 700;
-    color: #181818;
-    margin-top: 5px;
-    margin-bottom: 20px;
+.banner-title {
+  font-size: 85px;
+  font-weight: 700;
+  color: #181818;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
-.banner-description{
-    font-size: 18px;
-    color: #757575;
-    margin-bottom: 30px;
+.banner-description {
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 30px;
 }
 
 /* main section styles */
-main{
+main {
   max-width: 80%;
   margin: auto;
 }
 /* about section styles */
-.about{
+.about {
   padding: 130px;
   border-radius: 10px;
-  background: #FFF8F3;
+  background: #fff8f3;
   margin: 130px 0;
 }
-.about-info-container{
+.about-info-container {
   display: flex;
   justify-content: space-around;
 }
-.about-info{
+.about-info {
   text-align: center;
 }
-.info-title{
-  color:#757575;
-font-size: 20px;
-font-weight: 400;
+.info-title {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 400;
 }
 
-.info-description{
+.info-description {
   color: #474747;
   font-size: 20px;
   font-weight: 700;
+}
+
+/* skill section style */
+#what-i-do-description {
+  width: 80%;
+  margin: auto;
+}
+.skill-container {
+  display: flex;
+  gap: 24px;
+}
+.skill {
+  padding: 30px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  margin-top: 40px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+/* resume section styles */
+.resume-column-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+.resume-container {
+  display: flex;
+  gap: 50px;
+}
+.resume-item-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+}
+.resume-item-institute,
+resume-item-institute {
+  color: #757575;
+}
+.resume-container hr{
+  margin: 30px;
+}
+.download-cv{
+  text-align: center;
+  margin-top: 40px;
 }
